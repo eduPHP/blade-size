@@ -1,0 +1,48 @@
+{
+    "name": "s90/blade-size",
+    "version": "0.1",
+    "type": "library",
+    "license": "LGPL",
+    "autoload": {
+        "psr-4": {
+            "S90\\BladeSize\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Edu",
+            "email": "edu@rdo.blog.br"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^8.10"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests",
+            "Workbench\\App\\": "workbench/app/",
+            "Workbench\\Database\\Factories\\": "workbench/database/factories/",
+            "Workbench\\Database\\Seeders\\": "workbench/database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "S90\\BladeSize\\Providers\\BladeSizeServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@clear",
+            "@prepare"
+        ],
+        "clear": "@php vendor/bin/testbench package:purge-skeleton --ansi",
+        "prepare": "@php vendor/bin/testbench package:discover --ansi",
+        "build": "@php vendor/bin/testbench workbench:build --ansi",
+        "serve": [
+            "@build",
+            "@php vendor/bin/testbench serve"
+        ]
+    }
+}
