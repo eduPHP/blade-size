@@ -25,7 +25,7 @@ or
 "repositories": [
   {
     "type": "vcs",
-    "url":  "git@bitbucket.org:vendor/my-private-repo.git"
+    "url":  "https://github.com/eduPHP/blade-size.git"
   }
 ],
 ```
