@@ -34,6 +34,12 @@ or
 composer require s90/blade-size:dev-master
 ```
 
+**Config:**
+
+```bash
+php artisan vendor:publish --tag=blade-size-config
+```
+
 Blade file:
 
 ```html
