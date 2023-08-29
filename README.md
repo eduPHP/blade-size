@@ -20,6 +20,15 @@ With this macro we can add `{{ $attributes->size('w-4 h-4')->merge(...) }}` and 
   }
 ],
 ```
+or 
+```json
+"repositories": [
+  {
+    "type": "vcs",
+    "url":  "git@bitbucket.org:vendor/my-private-repo.git"
+  }
+],
+```
 
 ```bash
 composer require s90/blade-size
