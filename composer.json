@@ -1,6 +1,6 @@
 {
     "name": "s90/blade-size",
-    "version": "0.1",
+    "version": "dev-master",
     "type": "library",
     "license": "LGPL",
     "autoload": {
