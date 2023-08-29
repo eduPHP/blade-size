@@ -31,7 +31,7 @@ or
 ```
 
 ```bash
-composer require s90/blade-size
+composer require s90/blade-size:dev-master
 ```
 
 Blade file:
