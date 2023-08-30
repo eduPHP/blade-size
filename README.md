@@ -34,7 +34,7 @@ or
 composer require s90/blade-size:dev-master
 ```
 
-**Config:**
+**Config:** (_optional_)
 
 ```bash
 php artisan vendor:publish --tag=blade-size-config
