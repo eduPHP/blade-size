@@ -7,6 +7,7 @@ With this macro we can add `{{ $attributes->size('w-4 h-4')->merge(...) }}` and 
 
 ### Usage
 
+<!--
 `composer.json` (for now):
 
 ```json
@@ -29,7 +30,7 @@ or
   }
 ],
 ```
-
+-->
 ```bash
 composer require s90/blade-size:dev-master
 ```
