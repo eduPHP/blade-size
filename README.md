@@ -32,7 +32,7 @@ or
 ```
 -->
 ```bash
-composer require s90/blade-size:dev-master
+composer require s90/blade-size:dev-main
 ```
 
 **Config:** (_optional_)
